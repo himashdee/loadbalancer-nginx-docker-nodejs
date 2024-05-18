@@ -12,4 +12,4 @@ endpoints:
     type: TCP
     # +optional Network level visibility of this endpoint. Defaults to Project
     # Accepted values: Project|Organization|Public.
-    networkVisibility: Project
+    networkVisibility: Public
