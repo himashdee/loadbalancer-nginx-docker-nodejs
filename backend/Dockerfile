@@ -1,4 +1,4 @@
-FROM node:14.17.3-alpine3.14
+FROM node:14-alpine
 # This is required by Choreo to run the container as a non-root user.
 RUN adduser \
     --disabled-password \
